@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#to-do-container {
+    max-width: 400px;  
+    margin: 0 auto;    
+    padding: 20px;  
+    border: 1px solid red;
+    border-radius: 10px;  
+}    
+
+#to-do-container h1 {
+    text-align: center;  
+    color: rgba(114, 207, 165, 0.77);
+}   
+
+#to-do-list2 {
+    list-style: none;  
+    padding: 0;
+}   
+
+#to-do-list2 li {  
+    padding: 8px; 
+    display: flex; 
+    border-bottom: 1px solid #ccc;
+    justify-content: space-between; 
+    align-items: center;   
+}  
+
+#to-do-list2 li :last-child {
+    border-bottom: none;
+}   
+
+.remove-btn {
+    background-color: green;  
+    color: white;    
+    border: none;  
+    padding: 4px 8px;
+    border-radius: 6px; 
+    cursor: pointer;
+}   
+
+#to-do-button {
+    background-color: aqua; 
+    border-radius: 7px; 
+    cursor: pointer;
+}
